@@ -73,7 +73,6 @@
             this.Pantalla.Name = "Pantalla";
             this.Pantalla.Size = new System.Drawing.Size(295, 74);
             this.Pantalla.TabIndex = 18;
-            this.Pantalla.Text = "fdad";
             this.Pantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.Pantalla.TextChanged += new System.EventHandler(this.Pantalla_TextChanged);
             // 
@@ -89,6 +88,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(325, 24);
             this.menuStrip1.TabIndex = 19;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // verToolStripMenuItem
             // 
@@ -133,6 +133,7 @@
             this.Positivo_Negativo.TabIndex = 50;
             this.Positivo_Negativo.Text = "+/-";
             this.Positivo_Negativo.UseVisualStyleBackColor = false;
+            this.Positivo_Negativo.Click += new System.EventHandler(this.Positivo_Negativo_Click);
             // 
             // Restar_Memoria
             // 
@@ -198,6 +199,7 @@
             this.Limpiar.TabIndex = 51;
             this.Limpiar.Text = "C";
             this.Limpiar.UseVisualStyleBackColor = false;
+            this.Limpiar.Click += new System.EventHandler(this.Limpiar_Click);
             // 
             // Porcentaje
             // 
@@ -211,6 +213,7 @@
             this.Porcentaje.TabIndex = 52;
             this.Porcentaje.Text = "%";
             this.Porcentaje.UseVisualStyleBackColor = false;
+            this.Porcentaje.Click += new System.EventHandler(this.Porcentaje_Click);
             // 
             // Cuadrado
             // 
@@ -238,6 +241,7 @@
             this.Siete.TabIndex = 54;
             this.Siete.Text = "7";
             this.Siete.UseVisualStyleBackColor = false;
+            this.Siete.Click += new System.EventHandler(this.Siete_Click);
             // 
             // Ocho
             // 
@@ -251,6 +255,7 @@
             this.Ocho.TabIndex = 55;
             this.Ocho.Text = "8";
             this.Ocho.UseVisualStyleBackColor = false;
+            this.Ocho.Click += new System.EventHandler(this.Ocho_Click);
             // 
             // Multiplicacion
             // 
@@ -264,6 +269,7 @@
             this.Multiplicacion.TabIndex = 57;
             this.Multiplicacion.Text = "*";
             this.Multiplicacion.UseVisualStyleBackColor = false;
+            this.Multiplicacion.Click += new System.EventHandler(this.Multiplicacion_Click);
             // 
             // Seis
             // 
@@ -277,6 +283,7 @@
             this.Seis.TabIndex = 58;
             this.Seis.Text = "6";
             this.Seis.UseVisualStyleBackColor = false;
+            this.Seis.Click += new System.EventHandler(this.Seis_Click);
             // 
             // Cinco
             // 
@@ -290,6 +297,7 @@
             this.Cinco.TabIndex = 59;
             this.Cinco.Text = "5";
             this.Cinco.UseVisualStyleBackColor = false;
+            this.Cinco.Click += new System.EventHandler(this.Cinco_Click);
             // 
             // Cuatro
             // 
@@ -303,6 +311,7 @@
             this.Cuatro.TabIndex = 60;
             this.Cuatro.Text = "4";
             this.Cuatro.UseVisualStyleBackColor = false;
+            this.Cuatro.Click += new System.EventHandler(this.Cuatro_Click);
             // 
             // Raiz_Cuadrada
             // 
@@ -316,6 +325,7 @@
             this.Raiz_Cuadrada.TabIndex = 61;
             this.Raiz_Cuadrada.Text = "√ ";
             this.Raiz_Cuadrada.UseVisualStyleBackColor = false;
+            this.Raiz_Cuadrada.Click += new System.EventHandler(this.Raiz_Cuadrada_Click);
             // 
             // Division
             // 
@@ -329,6 +339,7 @@
             this.Division.TabIndex = 62;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = false;
+            this.Division.Click += new System.EventHandler(this.Division_Click);
             // 
             // Nueve
             // 
@@ -342,6 +353,7 @@
             this.Nueve.TabIndex = 63;
             this.Nueve.Text = "9";
             this.Nueve.UseVisualStyleBackColor = false;
+            this.Nueve.Click += new System.EventHandler(this.Nueve_Click);
             // 
             // Resta
             // 
@@ -355,6 +367,7 @@
             this.Resta.TabIndex = 64;
             this.Resta.Text = "-";
             this.Resta.UseVisualStyleBackColor = false;
+            this.Resta.Click += new System.EventHandler(this.Resta_Click);
             // 
             // Punto_Decimal
             // 
@@ -368,6 +381,7 @@
             this.Punto_Decimal.TabIndex = 66;
             this.Punto_Decimal.Text = ".";
             this.Punto_Decimal.UseVisualStyleBackColor = false;
+            this.Punto_Decimal.Click += new System.EventHandler(this.Punto_Decimal_Click);
             // 
             // Tres
             // 
@@ -381,6 +395,7 @@
             this.Tres.TabIndex = 67;
             this.Tres.Text = "3";
             this.Tres.UseVisualStyleBackColor = false;
+            this.Tres.Click += new System.EventHandler(this.Tres_Click);
             // 
             // Suma
             // 
@@ -394,6 +409,7 @@
             this.Suma.TabIndex = 68;
             this.Suma.Text = "+";
             this.Suma.UseVisualStyleBackColor = false;
+            this.Suma.Click += new System.EventHandler(this.Suma_Click);
             // 
             // Dos
             // 
@@ -407,6 +423,7 @@
             this.Dos.TabIndex = 70;
             this.Dos.Text = "2";
             this.Dos.UseVisualStyleBackColor = false;
+            this.Dos.Click += new System.EventHandler(this.Dos_Click);
             // 
             // Uno
             // 
@@ -420,6 +437,7 @@
             this.Uno.TabIndex = 73;
             this.Uno.Text = "1";
             this.Uno.UseVisualStyleBackColor = false;
+            this.Uno.Click += new System.EventHandler(this.Uno_Click);
             // 
             // Cero
             // 
@@ -433,6 +451,7 @@
             this.Cero.TabIndex = 74;
             this.Cero.Text = "0";
             this.Cero.UseVisualStyleBackColor = false;
+            this.Cero.Click += new System.EventHandler(this.Cero_Click);
             // 
             // Igual
             // 
@@ -446,6 +465,7 @@
             this.Igual.TabIndex = 75;
             this.Igual.Text = "=";
             this.Igual.UseVisualStyleBackColor = false;
+            this.Igual.Click += new System.EventHandler(this.Igual_Click);
             // 
             // Calculadora
             // 
@@ -486,6 +506,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Calculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
