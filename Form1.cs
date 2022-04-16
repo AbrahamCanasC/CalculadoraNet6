@@ -2,6 +2,9 @@ namespace CalculadoraNet6
 {
     public partial class Calculadora : Form
     {
+
+
+        //Variables globales
         double Auxiliar1;
         double Auxiliar2;
         string Operador;
